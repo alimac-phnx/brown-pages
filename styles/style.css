@@ -1,0 +1,339 @@
+body {
+    margin: 0;
+    font-family: 'Inclusive Sans', sans-serif;
+    background-color: blanchedalmond;
+}
+.container {
+    margin: 0 166px;
+}
+.header {
+    background-image: url("../pictures/backgrounds/DN11.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-line {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+.nav-item {
+    color: blanchedalmond;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 25px;
+    transition: color 0.3s linear;
+}
+.nav-item:hover {
+    color: darkgoldenrod;
+}
+.acc {
+    color: blanchedalmond;
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 0.3s linear;
+}
+.acc:hover {
+    color: darkgoldenrod;
+}
+.inst-img {
+    padding-top: 5px;
+    padding-right: 10px;
+}
+.inst-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: blanchedalmond;
+    text-align: center;
+}
+.inst-holder {
+    display: flex;
+    align-items: center;
+}
+.button {
+    background-color: darkgoldenrod;
+    color: blanchedalmond;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Inclusive Sans', sans-serif;
+}
+.button:hover {
+    background-color: #876507;
+}
+.header-down {
+    position: relative;
+}
+.header-title {
+    color: darkgoldenrod;
+    font-family: 'Merriweather', serif;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    margin-top: 222px;
+    margin-bottom: 12px;
+}
+.header-suptitle {
+    color: blanchedalmond;
+    font-size: 18px;
+    font-family: 'Inclusive Sans', sans-serif;
+}
+.header-suptitle:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 61px;
+    background-color: blanchedalmond;
+    top: 137px;
+    left: -6px;
+}
+.header-suptitle:before {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 61px;
+    background-color: blanchedalmond;
+    top: 136px;
+    right: -6px;
+}
+.header-button {
+    background-color: darkgoldenrod;
+    padding: 14px 28px;
+    color: blanchedalmond;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Inclusive Sans', sans-serif;
+    text-decoration: none;
+    transition: background-color 0.2s linear;
+}
+.header-button:hover {
+    background-color: #876507;
+}
+
+
+
+
+.cards-holder {
+    display: flex;
+    justify-content: center;
+}
+.card {
+    width: 349px;
+    box-shadow: 10px 10px 40px 20px rgba(135, 101, 7, 0.12);
+    margin-right: 31px;
+    background-color: blanchedalmond;
+    margin-top: -80px;
+    padding: 20px 10px;
+}
+.card-img {
+    padding-top: 35px;
+}
+.card-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.card-title span{
+    color: darkgoldenrod;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.card-desc {
+    text-align: center;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #6b642e;
+}
+
+
+
+.history {
+    margin-top: 166px;
+    padding-bottom: 200px;
+}
+.history-title {
+    font-family: 'Merriweather', serif;
+    font-size: 54px;
+    font-weight: 400;
+    width: 444px;
+    text-align: center;
+}
+.history-title span {
+    color: darkgoldenrod;
+}
+.history-desc {
+    color: #6b642e;
+    font-size: 16px;
+    width: 444px;
+    text-align: center;
+    margin-top: 21px;
+}
+.history-number {
+    display: flex;
+    width: 444px;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.number-item {
+    margin-right: 60px;
+    text-align: center;
+    font-size: 40px;
+    color: darkgoldenrod;
+}
+.number-item span {
+    display: block;
+    color: #000;
+    font-size: 20px;
+}
+.history-images {
+    position: relative;
+    top: -50px;
+    left: -300px;
+    background-size: 50%;
+}
+.history-holder {
+    display: flex;
+    justify-content: space-between;
+}
+.image-1 {
+    position: absolute;
+    z-index: 100;
+    top: 150px;
+    left: -300px;
+    box-shadow: 0 0 0 10px rgba(135, 101, 7, 1);
+}
+.image-2 {
+    position: absolute;
+    z-index: 999;
+    top: 200px;
+    left: -50px;
+    box-shadow: 0 0 0 10px rgba(135, 101, 7, 1);
+}
+.image-3 {
+    position: absolute;
+    z-index: 500;
+    top: 2px;
+    left: -150px;
+    box-shadow: 0 0 0 10px rgba(135, 101, 7, 1);
+}
+.image-00 {
+    position: absolute;
+    z-index: 0;
+    top: 15px;
+    left: -30px;
+}
+.image-01 {
+    position: absolute;
+    z-index: 0;
+    top: 250px;
+    left: -200px;
+}
+
+
+
+.black-block {
+    background-image: url("../pictures/backgrounds/bg-sub.jpg");
+    padding: 80px 0;
+}
+.left-title {
+    color: darkgoldenrod;
+    font-family: 'Merriweather', serif;
+    font-size: 52px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-right: 0;
+}
+.left-text {
+    font-weight: 760;
+    font-size: 22px;
+    color: blanchedalmond;
+    width: 740px;
+}
+.right-btn {
+    background-color: darkgoldenrod;
+    color: blanchedalmond;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Inclusive Sans', sans-serif;
+    transition: background-color 0.2s linear;
+}
+.right-btn:hover {
+    background-color: #876507;
+}
+.block-holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.books {
+    margin-bottom: 100px;
+}
+.books-title {
+    font-family: 'Merriweather', serif;
+    font-size: 54px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 132px;
+    margin-bottom: 139px;
+}
+.books-title span{
+    color: darkgoldenrod;
+}
+.robertl {
+    border: 10px solid #876507;
+}
+.robertl-books {
+    display: flex;
+    justify-content: center;
+}
+.robertl-books-image {
+    margin-right: 20px;
+}
+.robertl-text {
+    font-family: 'Merriweather', serif;
+    font-size: 26px;
+    margin-top: 25px;
+}
+.robertl-pages {
+    margin-bottom: 20px;
+}
+.robertl-txt {
+    text-decoration: none;
+    color: #6b642e;
+    transition: 0.2s;
+}
+.robertl-txt:hover {
+    background-color: #876507;
+    padding: 10px;
+    color: blanchedalmond;
+    align-items: center;
+}
+.robertl-txt span{
+    float: right;
+}

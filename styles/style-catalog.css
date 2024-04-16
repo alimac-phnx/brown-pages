@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    font-family: 'Inclusive Sans', sans-serif;
+    background-color: blanchedalmond;
+}
+.container {
+    margin: 0 166px;
+}
+.header {
+    background-image: url("../pictures/backgrounds/1.jpg");
+    /*background-size: 1525px;*/
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-line {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+.nav-item {
+    color: blanchedalmond;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 25px;
+    transition: color 0.3s linear;
+}
+.nav-item:hover {
+    color: darkgoldenrod;
+}
+.acc {
+    color: blanchedalmond;
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 0.3s linear;
+}
+.acc:hover {
+    color: darkgoldenrod;
+}
+.inst-img {
+    padding-top: 5px;
+    padding-right: 10px;
+}
+.inst-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: blanchedalmond;
+    text-align: center;
+}
+.inst-holder {
+    display: flex;
+    align-items: center;
+}
+.button {
+    background-color: darkgoldenrod;
+    color: blanchedalmond;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Inclusive Sans', sans-serif;
+    transition: background-color 0.2s linear;
+}
+.button:hover {
+    background-color: #876507;
+}
+.header-down {
+    position: relative;
+}
+.header-title {
+    color: darkgoldenrod;
+    font-family: 'Merriweather', serif;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    left: 0;
+    margin-top: 222px;
+    margin-bottom: 12px;
+}
+.header-suptitle {
+    color: blanchedalmond;
+    font-size: 18px;
+    font-family: 'Inclusive Sans', sans-serif;
+}
+.header-suptitle:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 61px;
+    background-color: blanchedalmond;
+    top: 137px;
+    left: 380px;
+}
+.header-suptitle:before {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 61px;
+    background-color: blanchedalmond;
+    top: 136px;
+    right: 380px;
+}
+
+
+
+.books-list {
+    margin-top: 20px;
+}
+.list-title {
+    font-family: 'Merriweather', serif;
+    font-size: 54px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 132px;
+    margin-bottom: 100px;
+}
+.list-title span {
+    color: darkgoldenrod;
+}
+.list-items {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 26px;
+    margin-bottom: 100px;
+}
+.list-item {
+    padding-bottom: 10px;
+}
+.list-item-txt {
+    display: block;
+    color: #6b642e;
+    text-decoration: none;
+    transition: 0.2s linear;
+    cursor: pointer;
+}
+.list-item-input {
+    appearance: none;
+    position: absolute;
+}
+.list-item-text {
+    display: none;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    color: #6b642e;
+}
+.list-item-txt:hover {
+    background-color: #876507;
+    padding: 10px;
+    color: blanchedalmond;
+    align-items: center;
+}
+.list-item-input:checked + .list-item-text {
+    display: block;
+}
+.list-item-img {
+    border: 10px solid #876507;
+}
+.book-desc {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #56563a;
+}

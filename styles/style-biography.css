@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    font-family: 'Inclusive Sans', sans-serif;
+    background-color: blanchedalmond;
+}
+.container {
+    margin: 0 166px;
+}
+.header {
+    background-image: url("../pictures/backgrounds/biography-bg.jpg");
+    /*background-size: 1525px;*/
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-line {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+.nav-item {
+    color: blanchedalmond;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 25px;
+    transition: color 0.3s linear;
+}
+.nav-item:hover {
+    color: darkgoldenrod;
+}
+.acc {
+    color: blanchedalmond;
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 0.3s linear;
+}
+.acc:hover {
+    color: darkgoldenrod;
+}
+.inst-img {
+    padding-top: 5px;
+    padding-right: 10px;
+}
+.inst-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: blanchedalmond;
+    text-align: center;
+}
+.inst-holder {
+    display: flex;
+    align-items: center;
+}
+.button {
+    background-color: darkgoldenrod;
+    color: blanchedalmond;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Inclusive Sans', sans-serif;
+    transition: background-color 0.2s linear;
+}
+.button:hover {
+    background-color: #876507;
+}
+.header-down {
+    position: relative;
+}
+.header-title {
+    color: darkgoldenrod;
+    font-family: 'Merriweather', serif;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    float: right;
+    left: 0;
+    margin-top: 222px;
+    margin-bottom: 12px;
+}
+.header-suptitle {
+    text-align: center;
+    color: blanchedalmond;
+    font-size: 18px;
+    font-family: 'Inclusive Sans', sans-serif;
+}
+.header-suptitle:after {
+    position: absolute;
+    align-content: center;
+    content: '';
+    height: 2px;
+    width: 61px;
+    background-color: blanchedalmond;
+    top: 357px;
+    left: 755px;
+}
+.header-suptitle:before {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 61px;
+    background-color: blanchedalmond;
+    top: 357px;
+    right: 0;
+}
+
+
+
+.author-biography {
+    margin-top: 137px;
+}
+.biography-text {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #56563a;
+}
+.title {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-family: 'Merriweather', serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #876507;
+}
+#early-life-title:before {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 900px;
+    background-color: #876507;
+    top: 1156px;
+    right: 200px;
+}
+#career-title:before {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 900px;
+    background-color: #876507;
+    top: 2084px;
+    right: 200px;
+}
+.start-text {
+    font-size: 16px;
+}
+.citata {
+    padding: 40px 80px;
+    padding-bottom: 30px;
+    color: #876507;
+    font-size: 16px;
+}
+.tt {
+    float: left;
+}
